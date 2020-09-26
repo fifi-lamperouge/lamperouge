@@ -1,0 +1,179 @@
+
+
+	
+.hd{
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	 
+	position: fixed; /*suivre le scrol*/
+	top: 0;
+	background-color: black;
+	z-index: 999;
+}
+.hd .hdlogohttps: {
+	
+	color: white;
+	font-family:'Montserrat', sans-serif;
+    margin-left: 30px;
+    float: left; /*se mettre a gauche */
+    color: white;
+}
+.hd .hdmen {
+	float: right;
+	margin-right: 30px;
+
+}
+.hd .hdmen a{
+	margin-right: 15px;
+	color: white;
+
+}
+.hd .hdmen a:hover {
+	color: grey;
+}
+.banner  {
+	margin-top: -20px;
+}
+.banner .bnim {
+	position: relative;
+}
+.banner .banner-content{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 200px;
+	font-family: 'Tangerine', cursive;
+	
+}
+.banner .banner-content{
+	color: white;
+	font-size: 60px;
+	font-weight: 900px;
+
+}
+
+	
+	
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 200%;
+
+	margin:0;
+	left:0;
+	size: cover;
+	animation: 20s slider infinite;
+
+}
+
+#slider figure img {
+	width: 50%;
+	float: left;
+	height: 700px;
+
+}
+@keyframes slider{
+	0%, 100%{
+		left:0;
+	}
+	50%{
+		left:-100%;
+	}
+}
+.bh{
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	font-size: 70px;
+	top:0;
+	color: black;
+
+}
+u{
+	line-height: 0.5px;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	z-index: 999px;
+	
+}
+.ima{
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	
+	padding: 0;
+	
+	
+
+}
+.about-n img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.about-n img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+p{
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	font-size: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+	
+
+footer{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+.ame{
+	font-family: 'Tangerine', cursive;
+	color: black;
+	text-decoration: underline;
+	margin-left: 30px;
+	font-size: 40px;
+
+}
+.me{
+	
+	font-family: 'Playfair Display', serif;
+    margin-left: 30px;
+    float: left; /*se mettre a gauche */
+    width: 60%;
+    font-size: 25px;
+  
+  }
+  .pic{
+  	
+  	
+    background-size: cover;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+background-position: center;
+  }
+
